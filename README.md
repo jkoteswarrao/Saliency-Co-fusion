@@ -9,8 +9,13 @@ Matlab Implementation of "Image Co-segmentation via Saliency Co-fusion", TMM'16 
 
 
 Create saliency_maps folder for any new set of images
+
 Add different saliency maps folders into saliency_maps folder
-Ensure that saliency maps have same name as the images and are .png files  [The data setup should be like women category in the data folder. YOu can add any number of saliency folders in the saliency_maps folders]
+
+Ensure that saliency maps have same name as the images and are .png files  
+
+[The data setup should be like women category in the data folder. YOu can add any number of saliency folders in the saliency_maps folders]
+
 Run co_fuse_demo.m for algorithm
 
 

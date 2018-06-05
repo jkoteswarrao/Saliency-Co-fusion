@@ -1,23 +1,17 @@
-# Saliency-Co-fusion
-Matlab Implementation of "Image Co-segmentation via Saliency Co-fusion", TMM'16 paper
-# Saliency-Co-fusion Code in this repository is slightly modified implimentation of "Image Co-segmentation via Saliency Co-fusion" for distribution purposes.
+# Saliency-Co-fusion Code in this repository is slightly modified implimentation of the paper titled "Image Co-segmentation via Saliency Co-fusion" for distribution purposes.
 
 
 "
 
 **********INSTRUCTIONS***********
+Run compile.m
+Run demo.m
 
+The outputs can be seen in the created sub-folders of the folders containing the images. For example, see ./data/women/    . 
 
-Create saliency_maps folder for any new set of images
+If you want to perform saliency co-fusion with more saliency maps, update saliencydetection.m accordingly.
 
-Add different saliency maps folders into saliency_maps folder
-
-Ensure that saliency maps have same name as the images and are .png files  
-
-[The data setup should be like women category in the data folder. YOu can add any number of saliency folders in the saliency_maps folders]
-
-Run co_fuse_demo.m for algorithm
-
+NOTE: Ensure that saliency maps have same name as the image and are .png files
 
 
 
@@ -41,6 +35,10 @@ This repository consists following extrnal implimentations:
 
 3) GrabCut
 
+4) Different saliency extraction methods.
+ 
 
+Kindly use these codes as per licences of the respective codes. 
 
-Kindly use these codes as per licences of respective codes. 
+Contact me at krjimp@geu.ac.in for any further queries. 
+

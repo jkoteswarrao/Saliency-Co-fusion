@@ -11,7 +11,7 @@ The outputs can be seen in the created sub-folders of the folders containing the
 
 If you want to perform saliency co-fusion with more saliency maps, update saliencydetection.m accordingly.
 
-NOTE: Ensure that saliency maps have same name as the image and are .png files
+NOTE: Ensure that saliency maps have same name as the image and are .png files. Path of the dataset (such as our data folder) should be as small as possible. It is recommended that you extract saliency_co-fusion.zip immediate to the drive (for e.g. E:/saliency_co-fusion/) 
 
 
 
